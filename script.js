@@ -6,10 +6,8 @@ let pageSize = 7;
 const createArticleElement = (title, date, excerpt, imageUrl, articleUrl) => {
     const articleDiv = document.createElement("div");
     articleDiv.classList.add("article");
-
     const thumbnailDiv = document.createElement("div");
     thumbnailDiv.classList.add("thumbnail");
-
     const thumbnailImg = document.createElement("img");
     thumbnailImg.src = imageUrl;
     thumbnailImg.alt = title;
